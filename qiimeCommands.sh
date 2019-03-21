@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd sequence_data/
+cd data/
 #This command imports the FASTQ files into a QIIME artifact
 #qiime tools import --type 'SampleData[PairedEndSequencesWithQuality]' --input-path import_to_qiime --output-path reads
 

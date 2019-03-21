@@ -1,0 +1,8 @@
+CSCI4180/6801 Scripts and Data
+
+Microbial Ecology Practical 1
+-----------------------------
+
+For this practical session, we will be reproducing and assessing the data from this publication: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6053498/
+
+The raw DNA sequences are available from https://www.ebi.ac.uk/ena/data/view/PRJEB22384, but download_data.sh will fetch that data for you (not required, only if you want). You can shortcut the slow steps by downloading the table.qza and representative_sequences.qza from this repository and using them for your analysis.

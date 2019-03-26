@@ -10,7 +10,7 @@ cd data/
 #Denoising with DADA2. Using quality score visualizations, you can choose trunc-len-f and trunc-len-r (note: sequences < trunc-len in length are discarded!)
 #qiime dada2 denoise-single --i-demultiplexed-seqs reads.qza --o-table unfiltered_table --o-representative-sequences representative_sequences --p-trunc-len 100 --p-trim-left 12 --p-n-threads 4 --o-denoising-stats denoise_stats.qza --verbose
 
-#wget https://data.qiime2.org/2019.1/common/gg-13-8-99-nb-classifier.qza
+wget https://data.qiime2.org/2019.1/common/gg-13-8-99-nb-classifier.qza
 #If you have a large amount of RAM (32GB or greater), try the larger SILVA database:
 #wget https://data.qiime2.org/2019.1/common/silva-132-99-nb-classifier.qza
 
